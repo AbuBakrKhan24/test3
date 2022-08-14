@@ -1,0 +1,87 @@
+/* Nav Styles */
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+/* nav{
+ cursor: url("https://cur.cursors-4u.net/anime/ani-12/oth1118.ani"), url("https://cur.cursors-4u.net/anime/ani-12/oth1118.png"), default;
+} */
+nav {
+    height: 76px;
+    }
+    
+    .pokeballAnimation {
+      transform-origin: center bottom;
+      animation: load 1s infinite alternate;
+    }
+    
+    @keyframes load {
+      33% {
+        transform: rotate(10deg)
+      }
+    
+      66% {
+        transform: rotate(-10deg)
+      }
+    }
+    
+    .navbar-brand {
+    font-size: 31px;
+    margin-left: 15px;
+    }
+    
+    a {
+    font-size: 20px;
+    }
+
+
+    
+    .logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    }
+    li {
+    list-style-type: none;
+    }
+.nav-link {
+  font-size: 18px;
+}
+    .book_create {
+    border: none;
+    background-color: #f8f9fa;
+    }
+    .profileAvatar[data-v-41458b80] {
+    right: 100px;
+    position: absolute;
+    border-radius: 50%;
+    }
+
+    body {
+      font-family: 'Varela', sans-serif;
+    }
+
+    .log_sign {
+      display: flex;
+      width: -webkit-fill-available;
+      flex-direction: row-reverse;
+      margin-right: 3rem!important;
+  }
+  .navbar-nav{
+      width: 100%;
+    }
+
+    .line {
+      width: 6.33px;
+      height: 46px
+    }
+
+    .login {
+      border-left: 1px solid rgb(0, 0, 0);
+    }
+    
+    .F{
+      color: #2e205a;
+    }
+    /* Nav Styles done */
+    
