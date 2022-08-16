@@ -5,7 +5,7 @@ require("dotenv").config();
 // Import routes
 const userRoute = require("./routes/userRoute");
 const productRoute = require("./routes/productRoute");
-const orderRoutes = require("./Routes/OrderRoute");
+const orderRoutes = require("./routes/orderRoute");
 
 // Configure Server
 const app = express(); // Initialize express as an app variable
