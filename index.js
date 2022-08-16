@@ -26,6 +26,11 @@ app.listen(app.get("port"), () => {
 
 app.use(express.static("public"));
 
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  next();
+});
+
 // This is where we check URLs and Request methods to create functionality
 // GET '/' is always what will be displayed on the home page of your application
 app.get("/", function (req, res) {
