@@ -36,3 +36,14 @@ app.use((req, res, next) => {
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/" + "index.html");
 });
+
+// Bypassing cors
+app.use(
+  cors({
+    origin: ["http://localhost:8080", "http://192.168.8.199:8080"],
+    credentials: true,
+  })
+);
+{
+  credentials: "include";
+}
