@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const con = require("../lib/db_connection");
 const jwt = require("jsonwebtoken");
-const middleware = require("../Middleware/auth");
+const middleware = require("../middleware/auth");
 
 // Get All Orders
 router.get("/", (req, res) => {
